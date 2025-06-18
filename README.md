@@ -14,6 +14,7 @@
 - **Redis:** Used for caching and session management.
 - **Docker** Containerization tool for consistent development and deployment environments.
 - **CI/CD Pipelines:** Automated pipelines for testing and deploying code changes.
+## Technology Stack
 ### Users Table
 | **Field**   | **Description**                                   |
 | ----------- | ------------------------------------------------- |
