@@ -74,3 +74,16 @@
 - **Securing Payments:** Security ensures that payment information, such as card or mobile money details, is protected from unauthorized access. This prevents fraud and misuse, giving users confidence that their transactions are safe.
 - **Maintains System Integrity:** Strong security prevents data tampering, ensuring that information in the system remains accurate, consistent, and trustworthy.
 - **Ensures Compliance with Regulations::** Many regions require businesses to follow data protection laws. Proper security helps avoid legal penalties and reputational damage.
+## CI/CD Pipeline
+CI/CD stands for **Continuous Integration** and **Continuous Deployment**. It refers to a set of automated steps that developers follow to build, test, and deliver new versions of software efficiently.
+### Implementing CI/CD is important in this project because it:
+- **Speeds up delivery** of new features and updates.
+- **Automates testing and deployment**, reducing human error.
+- **Improves code quality** through frequent integration and testing.
+- **Enhances security** by identifying issues early in the development cycle.
+- **Enables monitoring** of builds, deployments, and system behavior.
+### The techologies we are going to use for CI/CI are:
+- **Github actions:** Automates the CI/CD workflow by running tests, builds, and deployments whenever code is pushed or merged. It integrates directly with GitHub repositories, making automation easy to configure and maintain.
+- **Docker:** Packages applications and their dependencies into lightweight, portable containers. In CI/CD, Docker ensures consistency across development, testing, and production environments.
+- **Kubernetes:** Manages and orchestrates the deployment, scaling, and operation of containerized applications. In CI/CD, it automates the rollout and management of Docker containers in production.
+- **Jenkins:** An open-source automation server that helps build, test, and deploy software. Jenkins supports custom pipelines and integrates with many tools to facilitate CI/CD workflows.
